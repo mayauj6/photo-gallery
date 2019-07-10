@@ -5,14 +5,27 @@
 }
 
 body {
-  background: mistyrose;
+  background: #FFD6FC;
+}
+
+.london {
+  background-color: plum;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 100;
+  margin-top: 0px;
 }
 
 h1 {
   color: orchid;
-  background-color: lavender;
+  background-color: seashell;
   text-align: center;
   font-family: 'Homemade Apple', cursive;
+  padding: 25px;
+  font-size: 40px;
 
 }
 
@@ -31,14 +44,12 @@ h2 {
 img {
   height: 300px;
   margin: 5px;
-  padding: 0px;
-
 }
 
 .all-images {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
 
 }
 
@@ -46,15 +57,13 @@ img {
   .all-images {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+
   }
 }
 
 @media screen and (max-width: 600px) {
   .all-images {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column-wrap
-    align-items: center;
+
+
   }
 }
