@@ -33,7 +33,6 @@ h1 {
 }
 
 h2 {
-  background-color: plum;
   padding: 10px;
   margin: 10px;
   color: white;
@@ -89,4 +88,19 @@ img {
 
 .bar-head {
   background-color: #b19cd9;
+}
+
+.greece-head {
+  background-color: #73A2FF;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#flower {
+  height: 100px;
+  width: auto;
 }
